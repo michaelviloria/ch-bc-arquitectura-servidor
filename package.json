@@ -1,0 +1,33 @@
+{
+	"name": "40-arquitectura-servidor",
+	"version": "1.0.0",
+	"description": "Desafio entregable de la clase 40 del curso Programacion Backend en CoderHouse",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js",
+		"test": "node src/tests/benchmark.js"
+	},
+	"keywords": [],
+	"author": "Michael Viloria",
+	"license": "ISC",
+	"type": "module",
+	"dependencies": {
+		"autocannon": "^7.10.0",
+		"bcrypt": "^5.0.1",
+		"compression": "^1.7.4",
+		"cookie-parser": "^1.4.6",
+		"dotenv": "^16.0.2",
+		"express": "^4.18.1",
+		"express-session": "^1.17.3",
+		"log4js": "^6.6.1",
+		"minimist": "^1.2.7",
+		"mongoose": "^6.5.5",
+		"passport": "^0.6.0",
+		"passport-local": "^1.0.0",
+		"pug": "^3.0.2"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.19"
+	}
+}
